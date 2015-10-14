@@ -1,0 +1,22 @@
+{
+    "name": "rhildred/reverseindex",
+    "description": "creates a reverse index from files found recursively or from json",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rich Hildred",
+            "email": "rhildred@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "5.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "ReverseIndex": "src"
+        }
+    }
+}
+
